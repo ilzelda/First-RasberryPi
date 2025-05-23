@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Acquisition Game</title>
+  <style>
+    body { margin: 0; }
+    #gameContainer {
+      position: relative;
+      width: 800px;
+      margin: auto;
+    }
+    canvas {
+      background: #eee;
+      display: block;
+    }
+    #helpText {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      background: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      padding: 8px;
+      font-family: sans-serif;
+      font-size: 14px;
+      line-height: 1.4;
+      border-radius: 4px;
+    }
+    #helpText em {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div id="gameContainer">
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <div id="helpText">
+      <p>Use the arrow keys to move</p>
+      <p>Find the button (interact with Spacebar) to open the portal</p>
+      <p><em>Hint:</em> Isn't it too bright here?</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
