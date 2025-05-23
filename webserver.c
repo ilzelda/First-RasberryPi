@@ -19,7 +19,7 @@
 #include "webserver.h"
 
 #define HTTP_PORT 8080
-#define WEB_ROOT "/home/veda/project/"
+#define WEB_ROOT "/home/veda/project/" // rpi_server가 있는 경로로 바꿔주세요
 
 void *http_server(void *arg)
 {

@@ -80,7 +80,7 @@ int main(int argc, char **argv)
 
     // user input
     int cmd;
-    const char menu[] = "\n=========================\n" \
+    const char menu[] = "\n===============================\n" \
                         "   [1] : led (on/off)\n"  \
                         "   [2] : led (brightness)\n" \
                         "   [3] : music play\n" \
@@ -89,6 +89,7 @@ int main(int argc, char **argv)
                         "   [6] : segment display\n" \
                         "   [7] : web server\n" \
                         "[exit] : disconnect from server\n" \
+                        "===============================\n" \
                         "input command >";
 
     if(argc < 2) {
